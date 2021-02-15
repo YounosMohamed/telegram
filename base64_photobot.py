@@ -6,7 +6,8 @@ from urllib.request import urlopen
 #create variable to hold file id of images uploaded to telegram server
 fileID = None
 
-updater=Updater(token='1464023672:AAEfA6Ph8M_6US8a1gzX_754rtqk1znTmcs',use_context=True)
+#designate which bot by inserting relevant bot token
+updater=Updater(token='',use_context=True)
 dispatcher=updater.dispatcher
 
 #function which is called when user sends /start
